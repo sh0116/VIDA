@@ -2,7 +2,7 @@
 ### 👩‍🦯VIDA : 시각장애인을 위한 점자 지도 생성기
 
 
-<div align="center"><img src="./images/109_logo_ver.png" width="300">
+<div align="center"><img src="./asset/logo.png" width="300">
 </div>
 
 <div align="center">
