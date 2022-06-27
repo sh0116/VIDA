@@ -19,10 +19,9 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 3D 촉지도 모델 제작을 전문가가 아닌 일반인도 제작할 수 있게 만들 수 있게 인터페이스를 제공합니다.
 
 
-<div align="center"><img src="./images/109info.png" width=600 ></div>
-여기에  전체 프로세스 피피티로 이쁘게 사진
-
 # 모델 제작 과정
+<div align="center"><img src="./asset/create_process.png" width=600 ></div>
+
 | 프로세스 | 설명 | 
 | ------ | ------ | 
 | 평면도 자동 정규화 작업 | 인터페이스에 사용자가 평면도 이미지(jpg,png,gif)를 입력하면 내부 기능에 의해 정규화 된다 (1차 정규화) |
