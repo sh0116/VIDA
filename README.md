@@ -57,6 +57,6 @@ options
 - Windows 64버전 실행파일 생성 완료
 
 # Contribution
-<div align="center"><img src="./asset/logo.png" width="200">&nbsp;&nbsp;&nbsp;<img src="./asset/logo_kbbank.png" width="150">&emsp;<img src="./asset/logo_sapiens.jpeg " width="300">
+<div align="center"><img src="./asset/logoV2.png" width="200">&nbsp;&nbsp;&nbsp;<img src="./asset/logo_kbbank.png" width="150">&emsp;<img src="./asset/logo_sapiens.png " width="300">
 </div>
 
