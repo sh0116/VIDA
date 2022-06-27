@@ -5,15 +5,13 @@
 <div align="center"><img src="./images/109_logo_ver.png" width="300">
 </div>
 
-
+<div align="center">
+  
 ![RPi](https://img.shields.io/badge/Raspberry%20Pi-4B-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.7.4-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.1.2-orange)
-![Flask](https://img.shields.io/badge/Flask-1.1.2-red)
-![Snowboy](https://img.shields.io/badge/Snowboy-1.3.0-9cf)
-![Flutter](https://img.shields.io/badge/Flutter-1.22.2-green)
-![Mysql](https://img.shields.io/badge/MySQL-5.7.32-blueviolet)
-![Website](https://img.shields.io/badge/WebSite-HERE-yellow)
+![OpenCV](https://img.shields.io/badge/Blender-3.2.1-9cf)
+</div>
 
 # Overview
 
