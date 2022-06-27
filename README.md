@@ -45,7 +45,52 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 
 Windows 64-bit Version -> path
 
+## Team
 
+<table align="left" width="788">
+<thead>
+<tr>
+<th width="100" align="center">사진</th>
+<th width="100" align="center">성명</th>
+<th width="100" align="center">깃허브</th>
+<th width="175" align="center">이메일</th>
+</tr> 
+</thead>
+<tbody>
+<tr>
+<td width="100" align="center">
+	<img src="/asset/1.png">
+</td>
+<td width="100" align="center">김석현</td>
+<td width="100" align="center">
+	<a href="https://github.com/sh0116">
+		<img src="https://img.shields.io/badge/sh0116-655ced?style=social&logo=github"/>
+	</a>
+</td>
+<td width="175" align="center">
+	<a href="mailto:seokhyeon116@naver.com">
+                <img src="https://img.shields.io/static/v1?label=&message=seokhyeon116@naver.com&color=green&style=flat-square&logo=naver"/>
+        </a>
+</td>
+</tr>
+<tr>
+<td width="100" align="center">
+	<img src="/asset/2.png">
+</td>
+<td width="100" align="center">김서현</td>
+<td width="100" align="center">
+	<a href="https://github.com/sh0116">
+		<img src="https://img.shields.io/badge/sh0116-655ced?style=social&logo=github"/>
+	</a>
+</td>
+<td width="175" align="center">
+	<a href="mailto:seokhyeon24601@gmail.com">
+                <img src="https://img.shields.io/static/v1?label=&message=@gmail.com&color=orange&style=flat-square&logo=gmail"/>
+        </a>
+</td>
+</tr>
+</table>
+</br></br></br></br></br></br></br></br></br>
 
 # Contribution
 <div align="center"><img src="./asset/logoV2.png" width="200">&nbsp;&nbsp;&nbsp;<img src="./asset/logo_kbbank.png" width="150">&emsp;<img src="./asset/logo_sapiens.png " width="150">
