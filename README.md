@@ -35,6 +35,82 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 ### 3. 태깅 작업
 ### 4. 3D모델 제작 작업
 
+<table>
+        <tbody>
+		<tr>
+			<td colspan=2>
+				<b> 🗺 초기 평면도 생성 및 선택 </b><br>
+			</td>
+		</tr>
+	<tr>
+	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+            <td width="33%">  촉지도로 만들고 싶은 평면도는<br> 일반적인 규격의 표준형이나 PPT로 생성한 간의 평면도 모두 가능하다 </td>
+        </tr>
+   </tbody>
+</table>
+
+<table>
+        <tbody>
+		<tr>
+			<td colspan=2>
+				<b> 👨‍💻 자동 정규화 작업</b><br>
+			</td>
+		</tr>
+	<tr>
+	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+            <td width="33%">  1차 정규화는 내부 함수에 의해 자동으로 정규화된다<br> 자동 정규화는 Morphology Transformation (dilation, erosion) 연산을 활용하여 제작했습니다.  </td>
+        </tr>
+   </tbody>
+</table>
+
+<table>
+        <tbody>
+		<tr>
+			<td colspan=2>
+				<b> 👨‍🏭 수동 정규화 작업</b><br>
+			</td>
+		</tr>
+	<tr>
+	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+            <td width="33%">  1차 정규화에서 제거하지 못한 잡티 제거와<br> 사용자 정의 맞는 평면도 제작을 위한 과정이다.<br> 
+	    그림판 기능을 응용해 만든 인터페이스에서 사용자가 간편하게 잡티를 제거하거나<br> 사용자가 평면도의 벽을 생성 또는 제거 할 수 있다.
+	</td>
+        </tr>
+   </tbody>
+</table>
+
+<table>
+        <tbody>
+		<tr>
+			<td colspan=2>
+				<b> 👨‍🏭 수동 정규화 작업</b><br>
+			</td>
+		</tr>
+	<tr>
+	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+            <td width="33%">  1차 정규화에서 제거하지 못한 잡티 제거와<br> 사용자 정의 맞는 평면도 제작을 위한 과정이다.<br> 
+	    그림판 기능을 응용해 만든 인터페이스에서 사용자가 간편하게 잡티를 제거하거나<br> 사용자가 평면도의 벽을 생성 또는 제거 할 수 있다.
+	</td>
+        </tr>
+   </tbody>
+</table>
+
+<table>
+        <tbody>
+		<tr>
+			<td colspan=2>
+				<b> 🗿 3D Model 생성 </b><br>
+			</td>
+		</tr>
+	<tr>
+	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+            <td width="33%">  정규화된 이미지를 기반으로 벽을 생성하고<br> 태깅과정에서 생성된 건물의 구조<br> (좌표와 방이름)를 점자로 변환하여 Model에 넣어준다.<br> 
+	    size : ( 211x211x21 /mm)<br> time : (16H)
+	</td>
+        </tr>
+   </tbody>
+</table>
+
 ## Versions
 
 > ### v1.0.0 (released on 2022.06.27)
