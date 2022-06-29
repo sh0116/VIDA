@@ -30,10 +30,8 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 | 3D모델 제작 작업 | 정규화와 태깅이 끝나면 모델을 제작한다. |
 
 # Development
-### 1. 평면도 1차 정규화
-### 2. 평면도 2차 정규화
-### 3. 태깅 작업
-### 4. 3D모델 제작 작업
+
+### 0. Process Start
 
 <table>
         <tbody>
@@ -49,6 +47,8 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
    </tbody>
 </table>
 
+### 1. 평면도 1차 정규화
+
 <table>
         <tbody>
 		<tr>
@@ -57,27 +57,13 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+	<td rowspan="1"><div align="center"><img src="./asset/test1_2.PNG" width="60%" height="60%"></a></div></td>
             <td width="33%">  1차 정규화는 내부 함수에 의해 자동으로 정규화된다<br> 자동 정규화는 Morphology Transformation (dilation, erosion) 연산을 활용하여 제작했습니다.  </td>
         </tr>
    </tbody>
 </table>
 
-<table>
-        <tbody>
-		<tr>
-			<td colspan=2>
-				<b> 👨‍🏭 수동 정규화 작업</b><br>
-			</td>
-		</tr>
-	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
-            <td width="33%">  1차 정규화에서 제거하지 못한 잡티 제거와<br> 사용자 정의 맞는 평면도 제작을 위한 과정이다.<br> 
-	    그림판 기능을 응용해 만든 인터페이스에서 사용자가 간편하게 잡티를 제거하거나<br> 사용자가 평면도의 벽을 생성 또는 제거 할 수 있다.
-	</td>
-        </tr>
-   </tbody>
-</table>
+### 2. 평면도 2차 정규화
 
 <table>
         <tbody>
@@ -87,13 +73,33 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
+	<td rowspan="1"><div align="center"><img src="./asset/test1_3.PNG" width="60%" height="60%"></a></div></td>
             <td width="33%">  1차 정규화에서 제거하지 못한 잡티 제거와<br> 사용자 정의 맞는 평면도 제작을 위한 과정이다.<br> 
 	    그림판 기능을 응용해 만든 인터페이스에서 사용자가 간편하게 잡티를 제거하거나<br> 사용자가 평면도의 벽을 생성 또는 제거 할 수 있다.
 	</td>
         </tr>
    </tbody>
 </table>
+
+### 3. 태깅 작업
+
+<table>
+        <tbody>
+		<tr>
+			<td colspan=2>
+				<b> 🏷 건물 구조 Tagging </b><br>
+			</td>
+		</tr>
+	<tr>
+	<td rowspan="1"><div align="center"><img src="./asset/tagging.png" width="60%" height="60%"></a></div></td>
+            <td width="33%">  정규화가 끝난 이미지 위에 건물의 구조(방 이름,건물 이름)을 태그한다<br> 
+	Select Box를 제공하여 방의 크기와 위치를 정확하게 지정하고 간편하게 태그할 수 있다
+	</td>
+        </tr>
+   </tbody>
+</table>
+
+### 4. 3D모델 제작 작업
 
 <table>
         <tbody>
@@ -103,8 +109,8 @@ KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각�
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
-            <td width="33%">  정규화된 이미지를 기반으로 벽을 생성하고<br> 태깅과정에서 생성된 건물의 구조<br> (좌표와 방이름)를 점자로 변환하여 Model에 넣어준다.<br> 
+	<td rowspan="1"><div align="center"><img src="./asset/test1_temp.png" width="60%" height="60%"></a></div></td>
+            <td width="33%">  정규화된 이미지를 기반으로 벽을 생성하고<br> 태깅과정에서 생성된 건물의 구조<br> (좌표와 방이름)를 점자로 변환하여 Model에 넣어준다.<br><br> 예시의 경우<br>
 	    size : ( 211x211x21 /mm)<br> time : (16H)
 	</td>
         </tr>
