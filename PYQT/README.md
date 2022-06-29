@@ -1,4 +1,9 @@
-# pyqx interface
+---
+# 👩‍🦯VIDA : 시각장애인을 위한 촉지도 제작 도구 Interface🕹
+---
+
+<div align="center"><img src="../asset/logo.png" width="300">
+</div>
 
 ## 주요 기능
 | 기능 | 설명 | 
