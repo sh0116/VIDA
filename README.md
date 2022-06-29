@@ -13,6 +13,27 @@
 ![OpenCV](https://img.shields.io/badge/Blender-3.2.1-9cf)
 </div>
 
+<h2 align="center">프로젝트 설명 자료</h2>
+
+<table>
+	<tr>
+		<td width="50%">
+			<a href="https://www.youtube.com/watch?v=qXpAsFlGKac&ab_channel=%EA%B9%80%EC%84%9D%ED%98%84"><img src="./asset/readme/movie_final.png"></a>
+		</td>
+		<td width="50%">
+			<a href="./asset/readme/MealScan PPT.pdf"><img src="./asset/readme/movie_size2.png"></a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<a href="https://www.youtube.com/watch?v=qXpAsFlGKac&ab_channel=%EA%B9%80%EC%84%9D%ED%98%84">프로젝트 소개 및 시연영상</a>
+		</td>
+		<td align="center">
+			<a href="./asset/readme/MealScan PPT.pdf">프로젝트 소개 및 발표자료</a>
+		</td>
+	</tr>
+</table>
+
 # Overview
 
 KBSC KB국민은행 소프트웨어 경진대회에서 저희 VIDA팀은 시각장애인을 위한 촉지도 제작 도구를 제작했습니다.<br>
