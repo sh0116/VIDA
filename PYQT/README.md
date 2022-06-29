@@ -1,8 +1,13 @@
-pyqx
-====
+# pyqx interface
 
-**pyqx** is a multiplatform graphics editor developed in Python and PyQt. It focuses in Pixel Art, bringing a easy to use, user-friendly interface that you will adapt to in a matter of minutes. And if not, you can always change it! 
+## 주요 기능
+| 기능 | 설명 | 
+| ------ | ------ | 
+| 이미지 불러오기 | 이미지를 불러오면서 1차 정규화를 진행하고 인터페이스에 정규화된 이미지를 도식한다. |
+| 수동 정규화 | 수동 정규화는 그림판의 기능을 제공하여 비전공자도 간편하게 작업할 수 있다. |
+| 태깅 작업 | Select Box를 제공하여 간편하게 정확한 위치에 태그할 수 있다. 태그값은 좌표값과 방이름으로 구성되고 점자 형태로 반환된다 |
+| 3D모델 제작 작업 | 정규화와 태깅이 끝나면 모델을 제작한다. 모델 제작은 Blender를 사용했다. |
 
-![alt tag](https://raw.github.com/MikiLoz92/pyqx/master/images/screenshots/mainwindow.png)
-
-**pyqx** is brought to you assuming that you will use a graphic tablet to draw. Don't worry if you don't have one, for the shortcuts and controls are well designed to be comfortable while using the mouse too. The most convenient way to use pyqx is by leaving one hand on the keyboard and using the other with the mouse/pen at every moment. You won't have to move your fingers around every time you want to change the drawing tool: that's already been thought about.
+## Reference
+https://github.com/MikiLoz92/pyqx  <br>
+https://github.com/Wanderson-Magalhaes/Modern_GUI_PyDracula_PySide6_or_PyQt6
