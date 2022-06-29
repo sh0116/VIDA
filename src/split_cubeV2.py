@@ -30,15 +30,9 @@ def func_find(img):
         if (x_dict_keys[i]-x_dict_keys[pre]) == (i-pre) and x_dict[x_dict_keys[pre]] == x_dict[x_dict_keys[i]]:
             continue
         else:
-            #print(x_dict[x_dict_keys[i-1]])
-            #print(x_dict[x_dict_keys[pre]])
-            #print("____________________________")
             for temp in x_dict[x_dict_keys[i-1]]:
                 box_sorted.append(temp+[x_dict_keys[pre],x_dict_keys[i-1]])
             pre = i
-
-    #for i in x_dict_keys:
-    #    print(i,x_dict[i])
  
     return box_sorted
 
