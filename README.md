@@ -188,7 +188,7 @@ Windows 64-bit Version -> path
 </td>
 <td width="175" align="center">
 	<a href="mailto:snapshotoff@gmail.com">
-                <img src="https://img.shields.io/static/v1?label=&message=@gmail.com&color=orange&style=flat-square&logo=gmail"/>
+                <img src="https://img.shields.io/static/v1?label=&message=snapshotoff@gmail.com&color=orange&style=flat-square&logo=gmail"/>
         </a>
 </td>
 </tr>
