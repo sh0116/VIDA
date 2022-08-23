@@ -175,16 +175,6 @@ Windows 64-bit Version -> path
                 <img src="https://img.shields.io/static/v1?label=&message=seokhyeon116@naver.com&color=green&style=flat-square&logo=naver"/>
         </a>
 </td>
-</tr>
-<tr>
-<td width="100" align="center">
-	<img src="/asset/2.png">
-<td width="175" align="center">
-	<a href="mailto:snapshotoff@gmail.com">
-                <img src="https://img.shields.io/static/v1?label=&message=snapshotoff@gmail.com&color=orange&style=flat-square&logo=gmail"/>
-        </a>
-</td>
-</tr>
 </table>
 </br></br></br></br></br></br></br></br></br>
 
