@@ -179,13 +179,6 @@ Windows 64-bit Version -> path
 <tr>
 <td width="100" align="center">
 	<img src="/asset/2.png">
-</td>
-<td width="100" align="center">김서현</td>
-<td width="100" align="center">
-	<a href="https://github.com/uuisdom">
-		<img src="https://img.shields.io/badge/uuisdom-655ced?style=social&logo=github"/>
-	</a>
-</td>
 <td width="175" align="center">
 	<a href="mailto:snapshotoff@gmail.com">
                 <img src="https://img.shields.io/static/v1?label=&message=snapshotoff@gmail.com&color=orange&style=flat-square&logo=gmail"/>
