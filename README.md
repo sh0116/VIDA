@@ -1,7 +1,7 @@
 ## 👩‍🦯VIDA : 시각장애인을 위한 촉지도 제작 도구
 
 
-<div align="center"><img src="./asset/logo.png" width="300">
+<div align="center"><img src="./asset/LOGO.png" width="300">
 </div>
 
 <div align="center">
