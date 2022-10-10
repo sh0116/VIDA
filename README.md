@@ -1,5 +1,4 @@
-## KBSC KB국민은행 소프트웨어 경진대회🎉
-### 👩‍🦯VIDA : 시각장애인을 위한 촉지도 제작 도구
+## 👩‍🦯VIDA : 시각장애인을 위한 촉지도 제작 도구
 
 
 <div align="center"><img src="./asset/logo.png" width="300">
