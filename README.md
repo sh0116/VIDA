@@ -1,7 +1,7 @@
 ## 👩‍🦯VIDA : 시각장애인을 위한 촉지도 제작 도구
 
 
-<div align="center"><img src="./asset/LOGO.png" width="300">
+<div align="center"><img src="./asset/LOGO.png" width="800">
 </div>
 
 <div align="center">
@@ -17,18 +17,18 @@
 <table>
 	<tr>
 		<td width="50%">
-			<a href="https://www.youtube.com/watch?v=qXpAsFlGKac&ab_channel=%EA%B9%80%EC%84%9D%ED%98%84"><img src="./asset/readme/movie_final.png"></a>
+			<a href="https://www.youtube.com/watch?v=2zH5lD87E9M"><img src="./asset/youtubelog.jpg"></a>
 		</td>
 		<td width="50%">
-			<a href="./asset/readme/MealScan PPT.pdf"><img src="./asset/readme/movie_size2.png"></a>
+			<a href="./asset/VIDA.pdf"><img src="./asset/LOGO.png"></a>
 		</td>
 	</tr>
 	<tr>
 		<td align="center">
-			<a href="https://www.youtube.com/watch?v=qXpAsFlGKac&ab_channel=%EA%B9%80%EC%84%9D%ED%98%84">프로젝트 소개 및 시연영상</a>
+			<a href="https://www.youtube.com/watch?v=2zH5lD87E9M">프로젝트 소개 및 시연영상</a>
 		</td>
 		<td align="center">
-			<a href="./asset/readme/MealScan PPT.pdf">프로젝트 소개 및 발표자료</a>
+			<a href="./asset/VIDA.pdf">프로젝트 소개 및 발표자료</a>
 		</td>
 	</tr>
 </table>
