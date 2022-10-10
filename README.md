@@ -178,6 +178,4 @@ Windows 64-bit Version -> path
 </br></br></br></br></br></br></br></br></br>
 
 # Contribution
-<div align="center"><img src="./asset/logoV2.png" width="200">&nbsp;&nbsp;&nbsp;<img src="./asset/logo_kbbank.png" width="150">&emsp;<img src="./asset/logo_sapiens.png " width="150">
-</div>
 
