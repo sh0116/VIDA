@@ -34,104 +34,107 @@
 </table>
 
 # Overview
+### 시각 장애인을 위한 촉각지도 제작 도구
 
-VIDA는 시각장애인을 위한 촉지도 제작 도구를 제작했습니다.<br>
-3D 촉지도 모델 제작을 전문가가 아닌 일반인도 제작할 수 있게 만들 수 있게 인터페이스를 제공합니다.
-
+VIDA는 3D 모델링 도구로 비전문가를 타겟으로 제작됐습니다.<br>
+그림판 형식의 GUI 인터페이스를 제공하여 비전문가도 쉽고 빠르게 촉각 지도를 제작할 수 있습니다.
+<a><img src="./asset/VIDA.png"></a>
 
 # 모델 제작 과정
-<div align="center"><img src="./asset/create_process.png" width=600 ></div>
+<div align="center"><img src="./asset/VIDA.gif" width=600 >
 
 | 프로세스 | 설명 | 
 | ------ | ------ | 
-| 평면도 자동 정규화 작업 | 인터페이스에 사용자가 평면도 이미지(jpg,png,gif)를 입력하면 내부 기능에 의해 정규화 된다 (1차 정규화) |
-| 평면도 수동 정규화 작업 | 1차 정규화된 이미지를 인터페이스에 출력하면 깔끔하게 정규화하지 못한 부분을 사용자가 직접 작업한다 (2차 정규화) |
-| 태깅 작업 | 정규화가 완료된 평면도 이미지에 각 공간의 설명을 입력해준다. 공간 태깅이 끝나면 건물 태깅을 진행한다. |
-| 3D모델 제작 작업 | 정규화와 태깅이 끝나면 모델을 제작한다. |
+| 입력 | 지도 이미지를 인터페이스에 연다 |
+| 건물 선택 | 원하는 편의시설이 위치한 건물을 선택한다 |
+| 편의시설 입력 | 편의시설이 종류 (병원, 약국 ..)을 입력한다 |
+| 3D 모델 생성 | 주소지를 입력하고 생성 버튼을 누른다. |
+</div>
 
 # Development
 
-### 0. Process Start
+### 0. input data
 
 <table>
         <tbody>
 		<tr>
 			<td colspan=2>
-				<b> 🗺 초기 평면도 생성 및 선택 </b><br>
+				<b> 🗺 지도 이미지 입력 </b><br>
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1.jpg" width="60%" height="60%"></a></div></td>
-            <td width="33%">  촉지도로 만들고 싶은 평면도는<br> 일반적인 규격의 표준형이나 PPT로 생성한 간의 평면도 모두 가능하다 </td>
+	<td rowspan="1"><div align="center"><img src="./asset/1.gif" width="60%" height="60%"></a></div></td>
+            <td width="33%">    촉각 지도에 사용될 지도 이미지를 입력한다.<br>
+				지도는 공공 데이터(국토교통부 지도API ) 기준 백지도 이미지를 사용한다.<br>
+				이미지를 입력하면 건물과 도로가 구분되어 인터페이스에 출력된다. </td>
         </tr>
    </tbody>
 </table>
 
-### 1. 평면도 1차 정규화
+### 1. 건물 택선택
 
 <table>
         <tbody>
 		<tr>
 			<td colspan=2>
-				<b> 👨‍💻 자동 정규화 작업</b><br>
+				<b> 👨‍💻 건물 선택</b><br>
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1_2.PNG" width="60%" height="60%"></a></div></td>
-            <td width="33%">  1차 정규화는 내부 함수에 의해 자동으로 정규화된다<br> 자동 정규화는 Morphology Transformation (dilation, erosion) 연산을 활용하여 제작했습니다.  </td>
+	<td rowspan="1"><div align="center"><img src="./asset/2.gif" width="60%" height="60%"></a></div></td>
+            <td width="33%">  인터페이스에 출력된 지도에서 원하는 편의시설(병원, 약국 등)이 위치한 건물을 선택한다.
         </tr>
    </tbody>
 </table>
 
-### 2. 평면도 2차 정규화
+### 2. 편의시설 종류력입력
 
 <table>
         <tbody>
 		<tr>
 			<td colspan=2>
-				<b> 👨‍🏭 수동 정규화 작업</b><br>
+				<b> 👨‍🏭 편의시설 입력</b><br>
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1_3.PNG" width="60%" height="60%"></a></div></td>
-            <td width="33%">  1차 정규화에서 제거하지 못한 잡티 제거와<br> 사용자 정의 맞는 평면도 제작을 위한 과정이다.<br> 
-	    그림판 기능을 응용해 만든 인터페이스에서 사용자가 간편하게 잡티를 제거하거나<br> 사용자가 평면도의 벽을 생성 또는 제거 할 수 있다.
+	<td rowspan="1"><div align="center"><img src="./asset/3.gif" width="60%" height="60%"></a></div></td>
+            <td width="33%"> 건물 선택이 완료되면 편의시설의 종류를 입력한다(병원, 약국 ..) 여러 편의시설을 입력하고 싶다면 색깔을 바꿔서 반복한다. <br>
+	    (최대 3개의 편의시설까지 입력 가능)
 	</td>
         </tr>
    </tbody>
 </table>
 
-### 3. 태깅 작업
+### 3. 주소지 입력 및 모델 생성
 
 <table>
         <tbody>
 		<tr>
 			<td colspan=2>
-				<b> 🏷 건물 구조 Tagging </b><br>
+				<b> 🏷 모델 생성 </b><br>
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/tagging.png" width="60%" height="60%"></a></div></td>
-            <td width="33%">  정규화가 끝난 이미지 위에 건물의 구조(방 이름,건물 이름)을 태그한다<br> 
-	Select Box를 제공하여 방의 크기와 위치를 정확하게 지정하고 간편하게 태그할 수 있다
+	<td rowspan="1"><div align="center"><img src="./asset/4.gif" width="60%" height="60%"></a></div></td>
+            <td width="33%">  모든 편의시설을 넣었다면, 주소지를 입력하고 모델 생성 버튼을 누른다.
 	</td>
         </tr>
    </tbody>
 </table>
 
-### 4. 3D모델 제작 작업
+### 4. 3D모델 
 
 <table>
         <tbody>
 		<tr>
 			<td colspan=2>
-				<b> 🗿 3D Model 생성 </b><br>
+				<b> 🗿 3D모델 제작 작업 </b><br>
 			</td>
 		</tr>
 	<tr>
-	<td rowspan="1"><div align="center"><img src="./asset/test1_temp.png" width="60%" height="60%"></a></div></td>
-            <td width="33%">  정규화된 이미지를 기반으로 벽을 생성하고<br> 태깅과정에서 생성된 건물의 구조<br> (좌표와 방이름)를 점자로 변환하여 Model에 넣어준다.<br><br> 예시의 경우<br>
-	    size : ( 211x211x21 /mm)<br> time : (16H)
+	<td rowspan="1"><div align="center"><img src="./asset/VIDA.gif" width="60%" height="60%"></a></div></td>
+            <td width="33%">  3D Model파일은 다운로드 폴더에서 확인가능하다.<br>
+	    size : ( 211x211x21 /mm)<br> time : (3H)
 	</td>
         </tr>
    </tbody>
