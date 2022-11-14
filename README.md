@@ -140,6 +140,16 @@ VIDA는 3D 모델링 도구로 비전문가를 타겟으로 제작됐습니다.<
    </tbody>
 </table>
 
+## architecture
+### 이미지 정규화 - 건물 & 도로 구분 / 이진화 벡터화
+<img src="./asset/acr1.png" width="80%" height="80%">
+
+### 인터페이스 - PYQT5
+<img src="./asset/arc2.png" width="80%" height="80%">
+
+### 모델 생성 - Blender
+<img src="./asset/arc3.png" width="80%" height="80%">
+
 ## Versions
 
 > ### v1.0.0 (released on 2022.06.27)
