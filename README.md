@@ -1,7 +1,7 @@
 ## 👩‍🦯VIDA : 시각장애인을 위한 촉지도 제작 도구
 
 
-<div align="center"><img src="./asset/LOGO.png" width="800">
+<div align="center"><img src="./asset/첫화면.PNG" width="800">
 </div>
 
 <div align="center">
@@ -20,7 +20,7 @@
 			<a href="https://www.youtube.com/watch?v=2zH5lD87E9M"><img src="./asset/youtubelog.jpg"></a>
 		</td>
 		<td width="50%">
-			<a href="./asset/VIDA.pdf"><img src="./asset/LOGO.png"></a>
+			<a href="./asset/VIDA.pdf"><img src="./asset/첫화면.PNG"></a>
 		</td>
 	</tr>
 	<tr>
@@ -28,7 +28,7 @@
 			<a href="https://www.youtube.com/watch?v=2zH5lD87E9M">프로젝트 소개 및 시연영상</a>
 		</td>
 		<td align="center">
-			<a href="./asset/VIDA.pdf">프로젝트 소개 및 발표자료</a>
+			<a href="./asset/VIDA.pptx">프로젝트 소개 및 발표자료</a>
 		</td>
 	</tr>
 </table>
@@ -146,6 +146,11 @@ VIDA는 3D 모델링 도구로 비전문가를 타겟으로 제작됐습니다.<
 - 프로세스 전 과정 제작 완료
 - Windows 64버전 실행파일 생성 완료
 
+> v2.0.0 (released on 2022.11.01)
+- 프로세스 전 과정 제작 완료
+- Windows 64버전 실행파일 생성 완료
+- 백지도 to 촉각지도
+
 ## Download
 
 Windows 64-bit Version -> path
@@ -164,7 +169,7 @@ Windows 64-bit Version -> path
 <tbody>
 <tr>
 <td width="100" align="center">
-	<img src="/asset/1.png">
+	<img src="/asset/프사 (2).jpg">
 </td>
 <td width="100" align="center">김석현</td>
 <td width="100" align="center">
@@ -180,5 +185,8 @@ Windows 64-bit Version -> path
 </table>
 </br></br></br></br></br></br></br></br></br>
 
-# Contribution
+# Contest
+## 22년 오픈데이터 포럼 해커톤 - 대상 <br> 행정안전부 장관상 🏆🏆
 
+<div align="left"><img src="/asset/goddksqn.png" width="200">&nbsp;&nbsp;&nbsp;<img src="/asset/dhvmsepdlxj.png" width="150">
+</div>
